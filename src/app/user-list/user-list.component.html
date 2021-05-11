@@ -1,0 +1,7 @@
+<ng-container *ngIf="users">
+    <div class="b-bottom col-12 col-md-12 col-lg-12 col-sm-12" *ngFor="let user of users">
+        <app-user [user]="user" class="row "></app-user>
+    </div>
+</ng-container>
+<!-- 
+<app-user [user]="user" class="row "></app-user> -->

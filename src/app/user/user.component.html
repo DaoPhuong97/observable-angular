@@ -1,0 +1,13 @@
+<div>
+    <p>{{ user.name }}</p>
+    <img class="avatar" src="{{ user.avatar }}" />
+    <div>
+        <button (click)="seeMoreArticleByUser(user.id)">See more article</button>
+    </div>
+</div>
+<!-- <div *ngIf="listArticle" class="col-6 col-md-6 col-lg-6 col-sm-6 user-item">
+    <div *ngFor="let article of listArticle">
+        <p>{{article.title}}</p>
+    </div>
+
+</div> -->

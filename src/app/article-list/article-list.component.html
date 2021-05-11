@@ -1,0 +1,6 @@
+<ng-container *ngIf="articles">
+    <div class="b-bottom col-12 col-md-12 col-lg-12 col-sm-12" *ngFor="let article of articles">
+        <app-article [article]="article" class="row "></app-article>
+
+    </div>
+</ng-container>

@@ -1,0 +1,10 @@
+<h1>Here Phượng's Observable example</h1>
+<button (click)="getListUser()">Get all user</button>
+<div *ngIf="listUser" style="display: flex;">
+    <div class="col-6 col-md-6 col-lg-6 col-sm-6">
+        <app-user-list [users]="listUser"></app-user-list>
+    </div>
+    <div class="article col-6 col-md-6 col-lg-6 col-sm-6">
+        <app-article-list></app-article-list>
+    </div>
+</div>
